@@ -1,17 +1,21 @@
 {
-
   "name": "t-git",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.0",
+    "http-auth": "^4.1.9",
+    "nodegit": "^0.27.0",
     "pushover": "^1.3.6"
   }
 }
