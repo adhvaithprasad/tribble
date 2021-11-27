@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
+   "version": "1.0.0",
+  "engines": {
+    "node": "14.15.4"
+  }
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
