@@ -9,8 +9,8 @@
   },
 
   "scripts": {
-    "test": "npm ci",
-    "start": "npm install && node index.js"
+    "test": "rm -f package-lock.json && npm install",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
